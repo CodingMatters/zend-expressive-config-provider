@@ -1,6 +1,7 @@
 {
     "name": "codingmatters/zend-expressive-config-provider",
     "type": "library",
+    "license": "MIT",
     "require": {
         "php": "^7.0",
         "roave/security-advisories": "dev-master",
