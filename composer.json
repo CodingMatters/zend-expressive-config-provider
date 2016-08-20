@@ -1,0 +1,25 @@
+{
+    "name": "codingmatters/zend-expressive-config-provider",
+    "type": "library",
+    "require": {
+        "php": "^7.0",
+        "roave/security-advisories": "dev-master",
+        "zendframework/zend-expressive": "^1.0",
+        "zendframework/zend-expressive-helpers": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zend\\Expressive\\ConfigProvider\\": "module/ConfigProvider/src/"
+        }
+    },
+    "extra": {
+        "zf": {
+            "config-provider": "Zend\\Expressive\\ConfigProvider"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ZendTest\\Expressive\\ConfigProvider\\": "module/ConfigProvider/test/"
+        }
+    }
+}
