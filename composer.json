@@ -10,7 +10,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Zend\\Expressive\\ConfigProvider\\": "module/ConfigProvider/src/"
+            "Zend\\Expressive\\": "src/"
         }
     },
     "extra": {
@@ -20,7 +20,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "ZendTest\\Expressive\\ConfigProvider\\": "module/ConfigProvider/test/"
+            "ZendTest\\Expressive\\": "test/"
         }
     }
 }
