@@ -32,7 +32,7 @@ final class ConfigProvider
             // Use 'aliases' to alias a service name to another service. The
             // key is the alias name, the value is the service to which it points.
             'aliases' => [
-                Delegate\DefaultDelegate::class => Delegate\NotFoundDelegate::class,
+                "Zend\Expressive\Delegate\DefaultDelegate" => Delegate\NotFoundDelegate::class,
             ],
             // Use 'invokables' for constructor-less services,
             // or services that do not require arguments to the constructor.
